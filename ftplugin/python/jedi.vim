@@ -4,8 +4,6 @@ endif
 " ------------------------------------------------------------------------
 " Initialization of jedi-vim
 " ------------------------------------------------------------------------
-setlocal omnifunc=jedi#completions
-
 if g:jedi#usages_command != ''
   execute "nnoremap <buffer> ".g:jedi#usages_command." :call jedi#usages()<CR>"
 endif
